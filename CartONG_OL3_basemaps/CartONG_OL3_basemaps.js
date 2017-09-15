@@ -82,7 +82,7 @@ function CartONG_OL3_basemaps(div, b, w){
 	
 	for (var key in b){
 		if(b[key]==true){
-			var imgSrc = "/bundles/cartongmsf/CartONG_plugins/CartONG_OL3_basemaps/img/"+key+'.png'
+			var imgSrc = "img/"+key+'.png'
 			$('#CartONG_OL3_basemaps_Select').append("<img data-toggle='tooltip' data-placement='top' title='"+key+"' width='"+w+"px' class='img-thumbnail CartONG_OL3_basemaps_Thumbnail' name='"+key+"' src='"+imgSrc+"'>");
 		}
 	};
