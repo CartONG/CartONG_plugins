@@ -83,7 +83,7 @@ function CartONG_OL3_basemaps(div, b, w){
 	for (var key in b){
 		if(b[key]==true){
 			// Changed : path to images
-			var imgSrc = '!['+key+']https://github.com/CartONG/CartONG_plugins/tree/master/CartONG_OL3_basemaps/img/'+key+'.png'
+			var imgSrc = 'https://github.com/CartONG/CartONG_plugins/blob/master/CartONG_OL3_basemaps/img/'+key+'.png?raw=true'
 			$('#CartONG_OL3_basemaps_Select').append("<img data-toggle='tooltip' data-placement='top' title='"+key+"' width='"+w+"px' class='img-thumbnail CartONG_OL3_basemaps_Thumbnail' name='"+key+"' src='"+imgSrc+"'>");
 		}
 	};
